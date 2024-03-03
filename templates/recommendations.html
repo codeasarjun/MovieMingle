@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendations</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='recommendation_style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Recommended Movies for '{{ movie_title }}'</h1>
+        <div class="movies">
+            {% for movie in recommended_movies %}
+                <div class="movie">
+                    <img src="{{ movie.poster_path }}" alt="{{ movie.title }}">
+                    <div class="title">{{ movie.title }}</div>
+                     <!-- <div class="tooltip">{{ movie.overview }}</div> -->
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

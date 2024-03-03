@@ -1,0 +1,31 @@
+/* recommendation_style.css */
+
+/* Rest of the CSS styles... */
+
+.movie {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.movie:hover {
+    transform: translateY(-5px);
+}
+
+.movie img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.movie .title {
+    padding: 10px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
