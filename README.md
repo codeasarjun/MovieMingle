@@ -9,8 +9,8 @@ MovieMingle is a web application designed to provide personalized movie recommen
 3. [Recommendation Technique](#recommendation-technique)
 4. [Features](#features)
 5. [Future Enhancements](#future-enhancements)
-6. [Output][#output]
-7. [How to use][how-to-use]
+6. [Output](#output)
+7. [How to use](how-to-use)
    
 ## Objectives 
 The primary objectives of the Movie Recommendation System project are as follows: <br>
@@ -44,7 +44,7 @@ The Movie Recommendation System offers the following features: <br>
 🔎 Movie Details: Each recommended movie is accompanied by its title, overview, and poster image for easy exploration. <br>
 🔎 Responsive Design: The user interface is designed to be responsive, ensuring optimal viewing and interaction across different devices and screen sizes. <br>
 
-## Future Enhancements [for v2]
+## Future Enhancements
 While the Movie Recommendation System provides valuable functionality, there are several opportunities for future enhancements: <br>
 🚀 Collaborative Filtering: Explore collaborative filtering techniques to incorporate user ratings and interactions for more accurate recommendations. <br>
 🚀 Advanced Algorithms: We can use more advanced recommendation algorithms such as matrix factorization and deep learning models to improve recommendation quality. <br>
