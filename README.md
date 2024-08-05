@@ -10,7 +10,7 @@ MovieMingle is a web application designed to provide personalized movie recommen
 4. [Features](#features)
 5. [Future Enhancements](#future-enhancements)
 6. [Output](#output)
-7. [How to use](how-to-use)
+7. [How to use](#how-to-use)
    
 ## Objectives 
 The primary objectives of the Movie Recommendation System project are as follows: <br>
